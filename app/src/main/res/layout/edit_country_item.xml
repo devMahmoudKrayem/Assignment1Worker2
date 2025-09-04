@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/deisgndialgo"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Edit Country"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/ed_population"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_design"
+            android:hint="Population"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/ed_area"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_design"
+            android:hint="Area"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/ed_about"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_design"
+            android:gravity="top"
+            android:hint="About"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#64B5F6"
+            android:text="Save"
+            app:cornerRadius="15dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
